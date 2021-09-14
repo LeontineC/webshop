@@ -1,0 +1,65 @@
+.containerOS {
+    width: 100vw;
+    height: auto;
+    font-family: var(--font-primary);
+    overflow: hidden;
+    align-items: center;
+}
+
+.para span {
+    font-size: 4vw;
+}
+
+.para {
+    width: 20vw;
+    height: 40vh;
+    transform: translateZ(-1px) scale(1.7);
+    text-align: center;
+    margin-top: 35vw;
+    font-size: 1.5vw;
+    
+}
+
+.para1, .para3{
+    margin-right: 10em;
+}
+
+.para2, .para5 {
+    margin-left: 10em;
+}
+
+.backgr {
+    border-top: solid black 2px;
+    height: 120vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100vw;
+}
+
+
+
+
+
+.backgr1 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/13/21/46/sheep-1822137_960_720.jpg');
+}
+  
+.backgr2 {
+    background-image: url('https://cdn.pixabay.com/photo/2021/07/30/17/25/sheep-6510327_960_720.jpg');
+}
+  
+.backgr3 {
+    background-image: url('https://cdn.pixabay.com/photo/2014/10/10/11/23/wool-483295_960_720.jpg');
+}
+  
+.backgr4 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/05/05/15/29/eggs-1374141_960_720.jpg');
+}
+  
+.backgr5 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/20/16/42/knitting-1268932_960_720.jpg');
+    border-bottom: solid black 2px;
+}
+

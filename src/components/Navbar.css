@@ -1,0 +1,51 @@
+.navbarContent { 
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        font-family: var(--font-primary);
+        font-size: 2vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: white;
+        z-index: 10;
+}
+
+.logoTitleNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.ri-shopping-basket-line {
+        font-size: 2vw;
+        margin-left: 1em;
+        color: black;
+}
+
+/* .ri-heart-line { */
+        /* font-size: 30px; */
+/* } */
+
+.basketNav {
+        display: flex;
+        align-items: center;
+}
+
+.navLinks {
+        font-size: 2vw;
+        text-decoration: none;
+        color: black;
+        transition: var(--transition-buttons);
+}
+
+.navLinks:hover {
+        font-style: italic;
+}
+
+.hamburger {
+        display: none;
+}
+

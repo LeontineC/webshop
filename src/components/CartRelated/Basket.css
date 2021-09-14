@@ -1,0 +1,77 @@
+.basketContainer {
+    font-family: var(--font-primary);
+    font-size: 4em;
+    margin: 1em;
+    box-sizing: border-box;
+    width: 20vw;
+    font-size: var(--font-secondary);
+}
+
+.imgBasket {
+    border: solid black 2px;
+    width: 150px;
+}
+
+.quantity {
+    font-family: var(--font-primary);
+    display: flex;
+}
+
+.inputBasket {
+    width: 3em;
+    font-family: var(--font-primary);
+    background-color: var(--color-primary);
+}
+
+.inputBasket:hover {
+    border: dashed black 2px;
+}
+
+.buttonBin {
+    transition: var(--transition-buttons);
+    padding-top: .5em;
+    background-color: var(--color-primary);
+}
+
+.buttonBin:hover {
+    border: dashed black 2px;
+}
+
+.ri-delete-bin-5-line {
+    font-size: 1em;
+}
+
+.hrBasket {
+    width: 150%;
+    margin: 1em 0;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.contentBasket {
+    font-family: var(--font-primary);
+    margin-bottom: 1em;
+}
+
+.summaryBasket {
+    font-family: var(--font-primary);
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.linkCheckout {
+    border-radius: 5%;
+    background-color: var(--color-primary);
+    font-family: var(--font-secondary);
+    color: var(--color-tertiary);
+    font-size: var(--font-size-firebase-two);
+    text-align: center;
+    margin: .5em;
+    transition: var(--transition-buttons);
+}
+
+.linkCheckout:hover {
+    border-radius: 50%;
+}

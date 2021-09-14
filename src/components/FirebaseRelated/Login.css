@@ -1,0 +1,55 @@
+.login {
+    background: var(--color-primary);
+    background-image: var(--image-firebase);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-firebase-one);
+    width: 40vw;
+    height: 70vh;
+    justify-content: space-evenly;
+    margin-bottom: 2vw;
+}
+
+@media only screen and (max-width: 640px) {
+  .login {
+    width: 80vw;
+    background-position: center center;
+    font-size: 5vw;
+  }
+}
+
+  .inputLogin {
+        width: 30vw;
+        background-color: var(--color-primary);
+        color: var(--color-tertiary);
+        font-family: var(--font-secondary);
+        font-size: var(--font-size-firebase-two);
+  }
+
+  @media only screen and (max-width: 640px) {
+    .inputLogin {
+          font-size: 4vw;
+    }
+  }
+ 
+  .loginButton {
+    border-radius: 5%;
+    background-color: var(--color-primary);
+    font-family: var(--font-secondary);
+    color: var(--color-tertiary);
+    font-size: var(--font-size-firebase-two);
+    text-align: center;
+    margin-bottom: 1vw;
+    transition: var(--transition-buttons);
+  }
+  
+  .loginButton:hover {
+    border-radius: 50%;
+  }
+
+  .linkFirebase:hover {
+    color: var(--color-primary);
+  }

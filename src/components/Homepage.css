@@ -1,0 +1,103 @@
+.homepage {
+  font-family: var(--font-primary);
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  height: 110vh;
+  background: linear-gradient(
+    to bottom,
+    var(--color-secondary),
+    var(--color-primary)
+  );
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.letters span {
+  position: relative;
+  letter-spacing: 0.1em;
+  font-size: 10vw;
+  color: rgb(248, 207, 131);
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+    0px 8px 13px rgba(247, 246, 237, 0.1), 0px 18px 23px rgb(248, 207, 131);
+  top: -200px;
+  margin-left: 3vw;
+  transition: 1s cubic-bezier(0.59, 0.18, 0.24, 0.87);
+}
+
+.letters span:nth-child(3),
+span:nth-child(8) {
+  letter-spacing: 2vw;
+}
+
+.once .letters span {
+  top: 2vw;
+}
+
+.once .letters span:nth-child(1) {
+  transition-delay: 1s;
+}
+.once .letters span:nth-child(2) {
+  transition-delay: 1.5s;
+}
+.once .letters span:nth-child(3) {
+  transition-delay: 2s;
+}
+.once .letters span:nth-child(4) {
+  transition-delay: 2.5s;
+}
+.once .letters span:nth-child(5) {
+  transition-delay: 3s;
+}
+.once .letters span:nth-child(6) {
+  transition-delay: 3.5s;
+}
+.once .letters span:nth-child(7) {
+  transition-delay: 4s;
+}
+.once .letters span:nth-child(8) {
+  transition-delay: 4.5s;
+}
+.once .letters span:nth-child(9) {
+  transition-delay: 5s;
+}
+.once .letters span:nth-child(10) {
+  transition-delay: 5.5s;
+}
+.once .letters span:nth-child(11) {
+  transition-delay: 6s;
+}
+
+.eggHome img {
+  position: relative;
+  width: 6vw;
+  top: -50vw;
+  margin: 3vw;
+  transition: 1s cubic-bezier(0.52, 0.38, 0.42, 1.27);
+  transition-delay: 8s;
+  
+}
+.once .eggHome img {
+  top: 5vw;
+}
+
+.wordsHome {
+    margin-top: 8vw;
+    margin-bottom: 4vw;
+    opacity: 0;
+    color: rgb(255, 241, 203);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+    0px 8px 13px rgba(247, 246, 237, 0.1), 0px 18px 23px var(--color-primary);
+    font-size: 2.5vw;
+    transition: 4s linear;
+    transition-delay: 10s;
+}
+
+.once .wordsHome {
+    opacity: 1;
+}

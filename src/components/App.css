@@ -1,0 +1,33 @@
+
+:root {
+    --color-primary: rgb(255, 247, 225);
+    --color-secondary: rgb(248, 207, 131);
+    --color-tertiary: black;
+    --font-primary: 'Amatic SC', cursive;
+    --font-secondary: 'Oswald', sans-serif;
+    --font-size-firebase-one: 1.7vw;
+    --font-size-firebase-two: 1.5vw;
+    --image-firebase: url('https://cdn.pixabay.com/photo/2020/01/30/14/39/feather-4805619_960_720.jpg');
+    --transition-buttons: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    overflow-x: hidden;
+}
+
+ .App { 
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+ }
+
+ .contentSwitch {
+     flex-grow: 1;
+     margin-top: 5em;
+ }
+
+
+
